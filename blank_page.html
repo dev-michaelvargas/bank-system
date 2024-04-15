@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blank Page</title>
+  </head>
+  <body>
+    <!-- java script code -->
+    <script>
+      const celsiustoKelvin = function () {
+        const celsius = {
+          value: Number(prompt('please tell us a value to convert to kelvin')),
+          TYPE: 'TEMPERATURE',
+          KIND: 'CELCIUS',
+        };
+        debugger;
+        console.table(celsius);
+        const kelvin = celsius.value + 273; // WITH BREAKPOINTS EXECUTION ENDS WE USE DEBUGGER IN THAT WAY
+        return kelvin;
+      };
+      console.log(celsiustoKelvin()); // OUTPUT OF A TABLE
+
+      //console.error(celsiustoKelvin()); ERROR SIGN
+      //console.warn(celsiustoKelvin()); WARN SIGN
+    </script>
+  </body>
+</html>
